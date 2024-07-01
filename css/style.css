@@ -1,0 +1,138 @@
+/* Container */
+.container {
+    width: min(100%, 1400px);
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #758BFD;
+    display: flex;
+    padding: 57px 98px;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    column-gap: 50px;
+}
+
+
+.active,
+.inactive {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.active {
+    color: #133B3A;
+}
+
+.inactive {
+    color: #DDEAF8;
+}
+
+.search_box {
+    border: solid;
+    padding-right: 8px;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    border-width: 3px;
+    width: 222px;
+    height: 56px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.fa-solid,
+.fa-magnifying-glass {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+/* Section */
+section {
+    padding: 94px 77px;
+    margin: auto;
+}
+
+.section_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 51px 18px;
+}
+
+h2 {
+    color: #27187F;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.77px;
+    font-family: Ubuntu, sans-serif;
+    margin-bottom: 68px;
+}
+
+.cards {
+    background-color: #DDEAF8;
+    padding: 33px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 33px;
+}
+
+.card_img {
+    height: 211px;
+    width: 100%
+}
+
+p {
+    color: #133B3A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.98px;
+    font-family: Ubuntu, sans-serif;
+}
+
+
+
+/* Footer */
+footer {
+    padding: 98px 75px 109px;
+    background-color: #758BFD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.footer_nav {
+    display: flex;
+    column-gap: 20px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: Century Gothic, sans-serif;
+}
+
+.media_icons {
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.card_icons {
+    display: flex;
+    column-gap: 11px;
+}
